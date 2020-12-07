@@ -29,3 +29,49 @@ parser.add_option("--l2_assoc", type="int", default=8)
 
 parser.add_option("--cacheline_size", type="int", default=64)
 ```
+
+#### Question 2:
+```specbzip```:
+```
+sim_seconds                                  0.083718                       # Number of seconds simulated
+system.cpu.cpi                               1.674353                       # CPI: cycles per instruction
+system.cpu.dcache.overall_miss_rate::total     0.014248                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000077                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.295243                       # miss rate for overall accesses
+```
+
+```spechmmer```:
+```
+sim_seconds                                  0.000061                       # Number of seconds simulated
+system.cpu.cpi                               7.876944                       # CPI: cycles per instruction
+system.cpu.dcache.overall_miss_rate::total     0.053395                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.093111                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.938750                       # miss rate for overall accesses
+```
+
+```speclibm```:
+```
+sim_seconds                                  0.000042                       # Number of seconds simulated
+system.cpu.cpi                               6.586496                       # CPI: cycles per instruction
+system.cpu.dcache.overall_miss_rate::total     0.048994                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.075556                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.930275                       # miss rate for overall accesses
+```
+
+```specmcf```:
+```
+sim_seconds                                  0.064937                       # Number of seconds simulated
+system.cpu.cpi                               1.298734                       # CPI: cycles per instruction
+system.cpu.dcache.overall_miss_rate::total     0.002079                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.023610                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.055082                       # miss rate for overall accesses
+```
+
+```specsjeng```:
+```
+sim_seconds                                  0.513811                       # Number of seconds simulated
+system.cpu.cpi                              10.276223                       # CPI: cycles per instruction
+system.cpu.dcache.overall_miss_rate::total     0.121831                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000020                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.999972                       # miss rate for overall accesses
+```
