@@ -16,7 +16,7 @@ We notice in ```se.py```:
 from common import Options
 ```
 
-Therefore, we will look for the simulated cpu's parameters in the ```common/Options.py``` file:
+Therefore, we will look for the simulated CPU's parameters in the ```common/Options.py``` file:
 
 ```python
 parser.add_option("--l1d_size", type="string", default="64kB")
