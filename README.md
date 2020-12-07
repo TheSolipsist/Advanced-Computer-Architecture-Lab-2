@@ -76,6 +76,8 @@ system.cpu.icache.overall_miss_rate::total     0.000020                       # 
 system.l2.overall_miss_rate::total             0.999972                       # miss rate for overall accesses
 ```
 
+![Simulation times]("0.png")
+
 #### Question 3:
 
 Comparing the two ```stats.txt``` files, we notice that the ```system.clk_domain.clock``` parameter remains constant at 1000, while the ```system.cpu_clk_domain.clock``` parameter changes as we change the CPU clock. This means that the system clock frequency remains constant at 1 GHz, while the CPU clock frequency (which will affect the time that our instructions will take to be executed) changes. If we were to add another CPU, its clock frequency would obviously be set at 2 GHz.
