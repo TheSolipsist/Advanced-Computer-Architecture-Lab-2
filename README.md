@@ -75,3 +75,7 @@ system.cpu.dcache.overall_miss_rate::total     0.121831                       # 
 system.cpu.icache.overall_miss_rate::total     0.000020                       # miss rate for overall accesses
 system.l2.overall_miss_rate::total             0.999972                       # miss rate for overall accesses
 ```
+
+#### Question 3:
+
+Comparing the two ```stats.txt``` files, we notice that the ```system.clk_domain.clock``` parameter remains constant at 1000, while the ```system.cpu_clk_domain.clock``` parameter changes as we change the CPU clock. This means that the system clock remains constant at 1GHz, while the CPU clock (which will affect the time that our instructions will take to be executed) changes.
