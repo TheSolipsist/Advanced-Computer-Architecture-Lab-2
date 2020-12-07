@@ -90,3 +90,4 @@ speclibm    0.000067     0.000042
 specmcf     0.127847     0.064937
 specsjeng   0.705441     0.513811
 ```
+The above prove that, in the cases of ```specbzip```, ```spechmmer``` and ```specmcf``` we have almost perfect scaling, while in the cases of ```speclibm``` and ```specsjeng``` simulation time doesn't scale as well with the additional CPU clock frequency.
