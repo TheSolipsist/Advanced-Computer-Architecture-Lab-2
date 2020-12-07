@@ -78,5 +78,24 @@ system.l2.overall_miss_rate::total             0.999972                       # 
 
 #### Question 3:
 
-Comparing the two ```stats.txt``` files, we notice that the ```system.clk_domain.clock``` parameter remains constant at 1000, while the ```system.cpu_clk_domain.clock``` parameter changes as we change the CPU clock. This means that the system clock frequency remains constant at 1 GHz, while the CPU clock frequency (which will affect the time that our instructions will take to be executed) changes.
-If we were to add another CPU, its clock frequency would obviously be set at 2 GHz.
+Comparing the two ```stats.txt``` files, we notice that the ```system.clk_domain.clock``` parameter remains constant at 1000, while the ```system.cpu_clk_domain.clock``` parameter changes as we change the CPU clock. This means that the system clock frequency remains constant at 1 GHz, while the CPU clock frequency (which will affect the time that our instructions will take to be executed) changes. If we were to add another CPU, its clock frequency would obviously be set at 2 GHz.
+
+The following values show the different simulation times for 1 GHz and 2 GHz:
+
+##### 1 GHz:
+```
+specbzip    0.160412
+spechmmer   0.000123
+speclibm    0.000067
+specmcf     0.127847
+specsjeng   0.705441
+```
+
+##### 2 GHz:
+```
+specbzip    0.083718
+spechmmer   0.000061
+speclibm    0.000042
+specmcf     0.064937
+specsjeng   0.513811
+```
