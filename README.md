@@ -76,7 +76,11 @@ system.cpu.icache.overall_miss_rate::total     0.000020                       # 
 system.l2.overall_miss_rate::total             0.999972                       # miss rate for overall accesses
 ```
 
-![Simulation times](0.png)
+![image0](0.png)
+![image1](1.png)
+![image2](2.png)
+![image3](3.png)
+![image4](4.png)
 
 #### Question 3:
 
