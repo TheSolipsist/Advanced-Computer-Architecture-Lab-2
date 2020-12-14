@@ -4,7 +4,7 @@
 
 Results collected by gem5 running on VirtualBox VM Ubuntu 19.10.
  
-\n
+  
 ### Step 1: Run SPEC CPU2006 benchmarks on gem5
 
 #### Question 1:
@@ -98,7 +98,7 @@ The following values show the different simulation times for 1 GHz and 2 GHz:
 The above show that, in the cases of `specbzip`, `spechmmer` and `specmcf`, we have almost perfect scaling, while in the cases of `speclibm` and `specsjeng` simulation time doesn't scale as well with the additional CPU clock frequency.
 
 
-\n
+  
 ### Step 2: Design Exploration
 
 #### Question 1:
