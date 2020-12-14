@@ -96,4 +96,24 @@ speclibm    0.000067     0.000042
 specmcf     0.127847     0.064937
 specsjeng   0.705441     0.513811
 ```
-The above prove that, in the cases of ```specbzip```, ```spechmmer``` and ```specmcf``` we have almost perfect scaling, while in the cases of ```speclibm``` and ```specsjeng``` simulation time doesn't scale as well with the additional CPU clock frequency.
+The above prove that, in the cases of ```specbzip```, ```spechmmer``` and ```specmcf```, we have almost perfect scaling, while in the cases of ```speclibm``` and ```specsjeng``` simulation time doesn't scale as well with the additional CPU clock frequency.
+
+
+
+
+### Step 2: Design Exploration
+
+#### Question 1:
+
+Using the scripts in the ```benchmark_scripts``` folder, we ran benchmarks with the following configurations:
+
+|                                     Benchmark                                         ||||||||
+| Instance | l1d_size | l1i_size | l2_size | l1i_assoc | l1d_assoc | l2_assoc | cacheline_size |
+| -------- | -------- | -------- | ------- | --------- | --------- | -------- | -------------- |
+|                                     specmcf                                           ||||||||
+|    0     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
+|    0     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
+|    0     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
+|    0     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
+|    0     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
+|    0     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
