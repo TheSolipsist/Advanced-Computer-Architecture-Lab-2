@@ -159,3 +159,6 @@ Using the scripts in the `benchmark_scripts` folder, we ran benchmarks with the 
 |  			3 		 |  			128  |  			128  |  	1024		|  			2 		  |  			2 		  |  			8 		 |  	   	64 		    |
 |  			4 		 |  			32   |  			64 	 |  	512 		|  			16 		 |  			16 		 |  			32 		|  		  	64 		    |
 |  			5 		 |  			64   |  			128  |  	4096 	|  			16 		 |  			16 		 |  			32 		|  		  	64 		    |
+
+#### Question 2:
+
