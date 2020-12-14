@@ -196,3 +196,7 @@ For `specsjeng` we get the following results:
 ![specsjeng_L1_dcache_miss_rate](graphs/step_2/specsjeng_L1_dcache_miss_rate.png)
 ![specsjeng_L1_icache_miss_rate](graphs/step_2/specsjeng_L1_icache_miss_rate.png)
 ![specsjeng_L2_miss_rate](graphs/step_2/specsjeng_L2_miss_rate.png)
+
+
+
+### Step 3: Performance cost and optimization
