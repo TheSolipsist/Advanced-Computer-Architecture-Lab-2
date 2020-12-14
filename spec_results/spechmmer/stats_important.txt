@@ -1,5 +1,0 @@
-sim_seconds                                  0.000061                       # Number of seconds simulated
-system.cpu.cpi                               7.876944                       # CPI: cycles per instruction
-system.cpu.dcache.overall_miss_rate::total     0.053395                       # miss rate for overall accesses
-system.cpu.icache.overall_miss_rate::total     0.093111                       # miss rate for overall accesses
-system.l2.overall_miss_rate::total           0.938750                       # miss rate for overall accesses
