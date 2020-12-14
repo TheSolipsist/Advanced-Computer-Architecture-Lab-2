@@ -162,3 +162,37 @@ Using the scripts in the `benchmark_scripts` folder, we ran benchmarks with the 
 
 #### Question 2:
 
+For `specbzip` we get the following results:  
+![specbzip_Simulation_seconds](graphs/step_2/specbzip_Simulation_seconds.png)
+![specbzip_CPI](graphs/step_2/specbzip_CPI.png)
+![specbzip_L1_dcache_miss_rate](graphs/step_2/specbzip_L1_dcache_miss_rate.png)
+![specbzip_L1_icache_miss_rate](graphs/step_2/specbzip_L1_icache_miss_rate.png)
+![specbzip_L2_miss_rate](graphs/step_2/specbzip_L2_miss_rate.png)
+
+For `spechmmer` we get the following results:  
+![spechmmer_Simulation_seconds](graphs/step_2/spechmmer_Simulation_seconds.png)
+![spechmmer_CPI](graphs/step_2/spechmmer_CPI.png)
+![spechmmer_L1_dcache_miss_rate](graphs/step_2/spechmmer_L1_dcache_miss_rate.png)
+![spechmmer_L1_icache_miss_rate](graphs/step_2/spechmmer_L1_icache_miss_rate.png)
+![spechmmer_L2_miss_rate](graphs/step_2/spechmmer_L2_miss_rate.png)
+
+For `speclibm` we get the following results:  
+![speclibm_Simulation_seconds](graphs/step_2/speclibm_Simulation_seconds.png)
+![speclibm_CPI](graphs/step_2/speclibm_CPI.png)
+![speclibm_L1_dcache_miss_rate](graphs/step_2/speclibm_L1_dcache_miss_rate.png)
+![speclibm_L1_icache_miss_rate](graphs/step_2/speclibm_L1_icache_miss_rate.png)
+![speclibm_L2_miss_rate](graphs/step_2/speclibm_L2_miss_rate.png)
+
+For `specmcf` we get the following results:  
+![specmcf_Simulation_seconds](graphs/step_2/specmcf_Simulation_seconds.png)
+![specmcf_CPI](graphs/step_2/specmcf_CPI.png)
+![specmcf_L1_dcache_miss_rate](graphs/step_2/specmcf_L1_dcache_miss_rate.png)
+![specmcf_L1_icache_miss_rate](graphs/step_2/specmcf_L1_icache_miss_rate.png)
+![specmcf_L2_miss_rate](graphs/step_2/specmcf_L2_miss_rate.png)
+
+For `specsjeng` we get the following results:  
+![specsjeng_Simulation_seconds](graphs/step_2/specsjeng_Simulation_seconds.png)
+![specsjeng_CPI](graphs/step_2/specsjeng_CPI.png)
+![specsjeng_L1_dcache_miss_rate](graphs/step_2/specsjeng_L1_dcache_miss_rate.png)
+![specsjeng_L1_icache_miss_rate](graphs/step_2/specsjeng_L1_icache_miss_rate.png)
+![specsjeng_L2_miss_rate](graphs/step_2/specsjeng_L2_miss_rate.png)
