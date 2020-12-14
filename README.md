@@ -89,7 +89,7 @@ Comparing the two `stats.txt` files, we notice that the `system.clk_domain.clock
 The following values show the different simulation times for 1 GHz and 2 GHz:
 
 | Benchmark |  1 GHz   |  2 GHz   |
-| :-------: | :------: | :------: |
+| :-------- | :------: | :------: |
 | specbzip  | 0.160412 | 0.083718 |
 | spechmmer | 0.000123 | 0.000061 |
 | speclibm  | 0.000067 | 0.000042 |
