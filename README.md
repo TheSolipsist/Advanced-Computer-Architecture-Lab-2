@@ -107,9 +107,9 @@ The above prove that, in the cases of `specbzip`, `spechmmer` and `specmcf`, we 
 
 Using the scripts in the `benchmark_scripts` folder, we ran benchmarks with the following configurations:
 
-|                                     Benchmark                                         |---|---|---|---|---|---|---|
+
 | Instance | l1d_size | l1i_size | l2_size | l1i_assoc | l1d_assoc | l2_assoc | cacheline_size |
-| -------- | -------- | -------- | ------- | --------- | --------- | -------- | -------------- |
+| :------: | :------: | :------: | :-----: | :-------: | :-------: | :------: | :------------: |
 |                                     specmcf                                           ||||||||
 |    0     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
 |    0     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
