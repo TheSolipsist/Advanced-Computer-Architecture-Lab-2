@@ -10,7 +10,7 @@ Results collected by gem5 running on VirtualBox VM Ubuntu 19.10.
 
 #### Question 1:
 
-We notice in ```se.py```:
+We notice in `se.py`:
 
 ```python
 from common import Options
@@ -84,7 +84,7 @@ system.l2.overall_miss_rate::total             0.999972                       # 
 
 #### Question 3:
 
-Comparing the two ```stats.txt``` files, we notice that the ```system.clk_domain.clock``` parameter remains constant at 1000, while the ```system.cpu_clk_domain.clock``` parameter changes as we change the CPU clock. This means that the system clock frequency remains constant at 1 GHz, while the CPU clock frequency (which will affect the time that our instructions will take to be executed) changes. If we were to add another CPU, its clock frequency would obviously be set at 2 GHz.
+Comparing the two `stats.txt` files, we notice that the `system.clk_domain.clock` parameter remains constant at 1000, while the `system.cpu_clk_domain.clock` parameter changes as we change the CPU clock. This means that the system clock frequency remains constant at 1 GHz, while the CPU clock frequency (which will affect the time that our instructions will take to be executed) changes. If we were to add another CPU, its clock frequency would obviously be set at 2 GHz.
 
 The following values show the different simulation times for 1 GHz and 2 GHz:
 ```
@@ -96,7 +96,7 @@ speclibm    0.000067     0.000042
 specmcf     0.127847     0.064937
 specsjeng   0.705441     0.513811
 ```
-The above prove that, in the cases of ```specbzip```, ```spechmmer``` and ```specmcf```, we have almost perfect scaling, while in the cases of ```speclibm``` and ```specsjeng``` simulation time doesn't scale as well with the additional CPU clock frequency.
+The above prove that, in the cases of `specbzip`, `spechmmer` and `specmcf`, we have almost perfect scaling, while in the cases of `speclibm` and `specsjeng` simulation time doesn't scale as well with the additional CPU clock frequency.
 
 
 
@@ -105,10 +105,9 @@ The above prove that, in the cases of ```specbzip```, ```spechmmer``` and ```spe
 
 #### Question 1:
 
-Using the scripts in the ```benchmark_scripts``` folder, we ran benchmarks with the following configurations:
+Using the scripts in the `benchmark_scripts` folder, we ran benchmarks with the following configurations:
 
-| -------- | -------- | -------- | ------- | --------- | --------- | -------- | -------------- |
-|                                     Benchmark                                         ||||||||
+|                                     Benchmark                                         |---|---|---|---|---|---|---|
 | Instance | l1d_size | l1i_size | l2_size | l1i_assoc | l1d_assoc | l2_assoc | cacheline_size |
 | -------- | -------- | -------- | ------- | --------- | --------- | -------- | -------------- |
 |                                     specmcf                                           ||||||||
